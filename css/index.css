@@ -211,6 +211,10 @@ header nav {
     margin-bottom: 35px;
 }
 
+.about-middle-row section img {
+    margin-bottom: 15px;
+}
+
 .about-middle-row section button {
     margin: 10px 0;
     width: 130px;
