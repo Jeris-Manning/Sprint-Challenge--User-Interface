@@ -66,9 +66,45 @@ p {
     line-height: 1.4;
 }
 
+header :any-link{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+    
+}
+
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin:0 auto;
+    
+    background-color: white;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.jumboImg {
+    margin: 20px 0 35px 0;
 }
 
 .top-content {
@@ -112,6 +148,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +202,49 @@ p {
     padding-right: 0;
 }
 
+.about-page {
+    padding-left: 10px;
+    
+}
+
+.about-middle-row section {
+    margin-bottom: 35px;
+}
+
+.about-middle-row section img {
+    margin-bottom: 15px;
+}
+
+.about-middle-row section button {
+    margin: 10px 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: white;
+    border: solid black 2px;
+    font-size: 16px;
+}
+
+.about-middle-content {
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: dotted black 1px;
+}
+
+.about-middle-row {
+    display: flex;
+    justify-content: space-between;
+};
+
+.bottom-para {
+    margin-bottom: 45px;
+}
+
 footer {
     width: 100%;
     background: black;
+    margin-top: 45px;
 }
 
 footer nav {
@@ -138,6 +254,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background: black;
 }
 
 footer nav a {
